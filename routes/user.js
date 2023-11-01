@@ -35,7 +35,7 @@ router.post("/signup", async (req, res) => {
         <strong>
         ${req.body.email}
         </strong>, We welcome to our platform.
-        <a style="background-color:yellow; color:blue;" href="http://localhost:3000/user/verify/${token}">Click to Verify</a>
+        <a style="background-color:yellow; color:blue;" href="https://harmonious-queijadas-949af8.netlify.app/user/verify/${token}">Click to Verify</a>
        <div>
         <p>Thanks and Regards</p>
         <p>From URL-Shortener Team</p>
